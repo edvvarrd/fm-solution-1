@@ -10,29 +10,29 @@ html {
 }
 
 body {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   background-color: hsl(30deg, 38%, 92%);
   font-size: 1.4rem;
   font-family: "Montserrat", sans-serif;
 }
 
 .card {
-  width: 100%;
-  max-width: 350px;
   display: flex;
   flex-direction: column;
   margin: 0 1em;
+  width: 100%;
+  max-width: 350px;
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 8px;
   overflow: hidden;
 }
 .card__img img {
-  width: 100%;
   display: block;
+  width: 100%;
 }
 .card__content {
   display: flex;
@@ -93,11 +93,20 @@ body {
   background-color: hsl(158deg, 36%, 25%);
 }
 
+.attribution {
+  padding: 2em 0;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
 @media (min-width: 768px) {
   .card {
-    max-width: 595px;
     flex-direction: row;
     align-items: center;
+    max-width: 595px;
   }
   .card__img {
     width: 50%;
@@ -109,12 +118,4 @@ body {
   .card__content {
     width: 50%;
   }
-}
-.attribution {
-  padding: 2em 0;
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228deg, 45%, 44%);
 }/*# sourceMappingURL=style.css.map */
