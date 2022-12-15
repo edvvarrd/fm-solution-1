@@ -1,0 +1,119 @@
+@use 'colors' as *;
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: $cream;
+	font-size: 1.4rem;
+	font-family: 'Montserrat', sans-serif;
+}
+.card {
+	width: 100%;
+	max-width: 350px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 1em;
+	background-color: $white;
+	border-radius: 8px;
+	overflow: hidden;
+	&__img {
+		img {
+			width: 100%;
+			display: block;
+		}
+	}
+	&__content {
+		display: flex;
+		flex-direction: column;
+		padding: 1em 2em;
+		&-type {
+			margin: 0.5em 0;
+			font-size: 1.2rem;
+			color: $dark-grayish-blue;
+			text-transform: uppercase;
+			letter-spacing: 5px;
+		}
+		&-title {
+			margin: 0.2em 0;
+			font-family: 'Fraunces', sans-serif;
+			color: $very-dark-blue;
+			font-size: 3.2rem;
+		}
+		&-description {
+			margin: 0.5em 0;
+			color: $dark-grayish-blue;
+			line-height: 2.4rem;
+		}
+		&-price {
+			display: flex;
+			align-items: center;
+			margin: 1em 0;
+			&--new {
+				font-family: 'Fraunces', sans-serif;
+				font-size: 3.2rem;
+				color: $dark-cyan;
+			}
+			&--old {
+				margin-left: 1.5em;
+				font-size: 1.3rem;
+				color: $dark-grayish-blue;
+				text-decoration: line-through;
+			}
+		}
+		&-buy {
+			display: flex;
+			justify-content: center;
+			margin: 0.5em 0;
+			padding: 1.2em 0;
+			background-color: $dark-cyan;
+			border: none;
+			border-radius: 8px;
+			color: $white;
+			font-weight: 700;
+			cursor: pointer;
+			transition: background-color 0.3s;
+			img {
+				margin: 0 1em;
+			}
+			&:hover {
+				background-color: $dark-cyan-active;
+			}
+		}
+	}
+}
+@media (min-width: 768px) {
+	.card {
+		max-width: 595px;
+		flex-direction: row;
+		align-items: center;
+		&__img {
+			width: 50%;
+			height: 100%;
+			img {
+				height: 100%;
+			}
+		}
+		&__content {
+			width: 50%;
+		}
+	}
+}
+.attribution {
+	padding: 2em 0;
+	font-size: 11px;
+	text-align: center;
+	a {
+		color: hsl(228, 45%, 44%);
+	}
+}
