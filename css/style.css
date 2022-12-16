@@ -51,6 +51,7 @@ body {
   font-family: "Fraunces", sans-serif;
   color: hsl(212deg, 21%, 14%);
   font-size: 3.2rem;
+  line-height: 3.5rem;
 }
 .card__content-description {
   margin: 0.5em 0;
