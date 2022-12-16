@@ -41,7 +41,7 @@ body {
 	&__content {
 		display: flex;
 		flex-direction: column;
-		padding: 1em 2em;
+		padding: 1.5em 2em;
 		&-type {
 			margin: 0.5em 0;
 			font-size: 1.2rem;
@@ -80,7 +80,7 @@ body {
 		&-buy {
 			display: flex;
 			justify-content: center;
-			margin: 1em 0;
+			margin: 0.5em 0;
 			padding: 1.2em 0;
 			background-color: $dark-cyan;
 			border: none;

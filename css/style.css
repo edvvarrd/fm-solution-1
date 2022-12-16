@@ -44,7 +44,7 @@ body {
 .card__content {
   display: flex;
   flex-direction: column;
-  padding: 1em 2em;
+  padding: 1.5em 2em;
 }
 .card__content-type {
   margin: 0.5em 0;
@@ -84,7 +84,7 @@ body {
 .card__content-buy {
   display: flex;
   justify-content: center;
-  margin: 1em 0;
+  margin: 0.5em 0;
   padding: 1.2em 0;
   background-color: hsl(158deg, 36%, 37%);
   border: none;
