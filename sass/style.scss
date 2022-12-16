@@ -89,7 +89,8 @@ body {
 			cursor: pointer;
 			transition: background-color 0.3s;
 			img {
-				margin: 0 1em;
+				position: relative;
+				left: -0.5em;
 			}
 			&:hover {
 				background-color: $dark-cyan-active;

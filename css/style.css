@@ -94,7 +94,8 @@ body {
   transition: background-color 0.3s;
 }
 .card__content-buy img {
-  margin: 0 1em;
+  position: relative;
+  left: -0.5em;
 }
 .card__content-buy:hover {
   background-color: hsl(158deg, 36%, 25%);
