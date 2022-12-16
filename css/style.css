@@ -54,7 +54,7 @@ body {
   letter-spacing: 5px;
 }
 .card__content-title {
-  margin: 0.2em 0;
+  margin: 0.5em 0;
   font-family: "Fraunces", sans-serif;
   color: hsl(212deg, 21%, 14%);
   font-size: 3.2rem;
@@ -68,7 +68,7 @@ body {
 .card__content-price {
   display: flex;
   align-items: center;
-  margin: 1em 0;
+  margin: 1.5em 0;
 }
 .card__content-price--new {
   font-family: "Fraunces", sans-serif;
@@ -96,7 +96,7 @@ body {
 }
 .card__content-buy img {
   position: relative;
-  left: -0.5em;
+  left: -0.8em;
 }
 .card__content-buy:hover {
   background-color: hsl(158deg, 36%, 25%);
